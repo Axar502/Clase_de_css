@@ -1,0 +1,81 @@
+body {
+    color: tomato;
+}
+
+#titulo {
+    font-size: 10px;
+    border: solid 2em silver;
+}
+
+.texto {
+    color: blueviolet;
+}
+
+p.especial {
+    color: beige;
+}
+
+p.texto {
+    color: chartreuse;
+}
+
+div p {
+    color: slateblue;
+}
+/* esto es un comentario en css*/
+
+
+.color {
+    /* color: rgb(166, 54, 242); */
+    /* border: 5px red outset; */
+    /*
+    alternativas de border
+    dotted
+    dashed
+    solid 
+    groove
+    gride
+    inset
+    aoutset
+    none
+    hidden
+    */
+
+    border-style:outset;
+    border-color:skyblue;
+    border-radius: 10px;
+    border-width: 2em;
+}
+
+#fondo {
+    background-color: greenyellow;
+    /* opacity: 0.7; */
+    height: 540px;
+    background-image: url('brbad.jpg');
+    background-size: 200px 200px;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+    border: solid 5px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text{
+    font-family:'Roboto';
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+ul {
+    background-color: cyan;
+
+}
